@@ -1,0 +1,15 @@
+{
+  "name": "spotify-playlist-downloader",
+  "version": "0.0.1",
+  "description": "Download spotify playlists (from spotify)",
+  "main": "main.js",
+  "dependencies": {
+    "cheerio": "~0.18.0",
+    "debug": "~2.1.1",
+    "protobufjs": "~2.2.1",
+    "superagent": "~0.21.0",
+    "ws": "~0.6.4",
+    "readable-stream": "~1.0.33"
+  },
+  "license": "MIT"
+}
