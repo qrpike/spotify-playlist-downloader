@@ -2,11 +2,11 @@
 Download a spotify playlist
 
 To install:
-		npm install -g spotify-downloader
+		npm install -g spotify-playlist-downloader
 
 
 To use:
-		spotify-downloader --help
+		spotify-playlist-downloader --help
 
 
 
