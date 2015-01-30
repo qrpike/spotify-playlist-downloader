@@ -1,5 +1,5 @@
 {
-  "name": "spotify-playlist-downloader",
+  "name": "spotify-downloader",
   "version": "0.0.1",
   "description": "Download spotify playlists (from spotify)",
   "main": "main.js",
