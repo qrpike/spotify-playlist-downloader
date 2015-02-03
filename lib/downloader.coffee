@@ -24,10 +24,6 @@ Log = ( msg )=>
 
 
 
-
-
-
-
 class Track extends EventEmitter
 
 	constructor: ( @trackId, @Spotify, @directory, @cb, @track = {} )->
@@ -40,7 +36,7 @@ class Track extends EventEmitter
 			@createDirs()
 
 	createDirs: =>
-		dir = Path.resolve( __dirname, '../', "#{@directory}" )
+		dir = Path.resolve( "#{@directory}" )
 		artistpath = dir + '/' + @track.artist[0].name.replace(/\//g, ' - ') + '/'
 		albumpath = artistpath + @track.album.name.replace(/\//g, ' - ') + ' [' + @track.album.date.year + ']/'
 		filepath = albumpath + @track.artist[0].name.replace(/\//g, ' - ') + ' - ' + @track.name.replace(/\//g, ' - ') + '.mp3';
