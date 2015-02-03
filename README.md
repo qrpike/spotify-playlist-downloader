@@ -1,6 +1,8 @@
 # Spotify Playlist Downloader
 
-Download an entire spotify playlist ( FROM SPOTIFY ) to your local machine.
+Download an entire spotify playlist ( FROM SPOTIFY @ 160kbps ) to your local machine.
+
+Also upon download it writes the ID3 data to the file.
 
 ###To install:
 
@@ -23,19 +25,22 @@ Download an entire spotify playlist ( FROM SPOTIFY ) to your local machine.
 	
 
 
-So if you wanted to download "Top 100 Hip-Hop Tracks on Spotify"
-You would use the following command:
+####So if you wanted to download "Top 100 Hip-Hop Tracks on Spotify". You would use the following command:
 
-	spotify-playlist-downloader -u yourusername -p yourpassword -l spotify:user:spotify:playlist:06KmJWiQhL0XiV6QQAHsmw -d /directory/where/to/download
+	spotify-playlist-downloader -u yourusername -p yourpassword -l 	spotify:user:spotify:playlist:06KmJWiQhL0XiV6QQAHsmw -d /directory/where/to/download
 
-The output should look something like:
+####The output should look something like:
 
 ![image](spotify-downloader.png)
 
 
 
-###Must have:
+###Must haves:
 
 - Spotify Premium Account
-- Only tested on Mac OSX 10.10
+- Only tested on Mac OSX 10.10 ( Should work on Linux and Windows as well??? )
 
+### Disclaimer:
+
+- This was done purely as an academic exercise.
+- I do not recommend you doing this illegally or against Spotify's terms of service.
