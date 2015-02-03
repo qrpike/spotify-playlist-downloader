@@ -22,13 +22,15 @@ Install nodejs if you haven't already. ( [NodeJS Downloads](http://nodejs.org/do
 	    -u, --username [username]    Spotify Username (required)
 	    -p, --password [password]    Spotify Password (required)
 	    -l, --playlist [playlist]    Spotify URI for playlist
-	    -d, --directory [directory]  Directory you want to save the mp3s to
+	    -d, --directory [directory]  Directory you want to save the mp3s to, default: HOME/spotify-mp3s
 	
 
 
 ####So if you wanted to download "Top 100 Hip-Hop Tracks on Spotify". You would use the following command:
 
-	spotify-playlist-downloader -u yourusername -p yourpassword -l 	spotify:user:spotify:playlist:06KmJWiQhL0XiV6QQAHsmw -d /directory/where/to/download
+	spd -u yourusername -p yourpassword -l spotify:user:spotify:playlist:06KmJWiQhL0XiV6QQAHsmw
+
+`spd` is the shorthand for `spotify-playlist-downloader`. You can use either one.
 
 ####The output should look something like:
 

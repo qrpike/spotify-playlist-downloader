@@ -1,6 +1,6 @@
 {
   "name": "spotify-playlist-downloader",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Download spotify playlists (from spotify)",
   "main": "main.js",
   "dependencies": {
@@ -19,7 +19,8 @@
   },
   "preferGlobal": true,
   "bin" : {
-    "spotify-playlist-downloader" : "main.js"
+    "spotify-playlist-downloader" : "main.js",
+    "spd" : "main.js"
   },
   "license": "MIT"
 }
