@@ -5,6 +5,7 @@ Download an entire spotify playlist ( FROM SPOTIFY @ 160kbps ) to your local mac
 Also upon download it writes the ID3 data to the file.
 
 ###To install:
+Install nodejs if you haven't already. ( [NodeJS Downloads](http://nodejs.org/download/) )
 
 	npm install -g spotify-playlist-downloader
 
@@ -37,7 +38,7 @@ Also upon download it writes the ID3 data to the file.
 
 ###Must haves:
 
-- Spotify Premium Account
+- Spotify Premium Account ( haven't tried it on a free account )
 - Only tested on Mac OSX 10.10 ( Should work on Linux and Windows as well??? )
 
 ### Disclaimer:
