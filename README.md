@@ -9,6 +9,10 @@ Install nodejs if you haven't already. ( [NodeJS Downloads](http://nodejs.org/do
 
 	npm install -g spotify-playlist-downloader
 
+You will also need ffmpeg installed.
+
+	In mac terminal: brew install ffmpeg
+
 
 ###Available Options
 
